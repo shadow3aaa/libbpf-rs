@@ -26,7 +26,7 @@ vendored = ["libbpf-sys/vendored"]
 [dependencies]
 bitflags = "2.0"
 libbpf-sys = { git = "https://github.com/shadow3aaa/libbpf-sys-android", branch = "android-6.6", default-features = false }
-libc = "0.2"
+libc = "0.2.171"
 num_enum = "0.5"
 strum_macros = "0.24"
 thiserror = "1.0.10"
