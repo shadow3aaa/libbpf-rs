@@ -10,6 +10,7 @@ use std::ptr::null_mut;
 use std::ptr::NonNull;
 use std::slice::from_raw_parts;
 use std::slice::from_raw_parts_mut;
+use std::io;
 
 use crate::AsRawLibbpf;
 use crate::Error;
